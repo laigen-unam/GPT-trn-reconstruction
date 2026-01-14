@@ -21,16 +21,16 @@ For fine-tuning the GPT models and comparing our results with previous work, we 
 
 As our approach aims to eventually reconstruct TRNs from complete articles of several bacteria, we evaluated the best fine-tuned models of GPT-4o mini and LLaMA for the extraction of a TRN of the *Salmonella* enterica serovar Typhimurium bacterium (Salmonella) using the same 264 curated articles used in (Varela-Vega et al., 2024). We leveraged the set of 909 unique interactions (TF-regulated element-effect) manually extracted from those articles to evaluate the extraction of the best GPT-4o mini and LLaMA models. A total of 14349 tagged sentences were processed by the best GPT-4o mini and LLaMA models.
 
-
+[https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs)
 
 ## Reconstructed Salmonella TRN with 264 articles
-- [GPT-4o mini]()
-- [LLaMA 8B]()
+- [GPT-4o mini](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_264_articles/Reconstructed_TRN_264_GPT.tsv)
+- [LLaMA 8B](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_264_articles/Reconstructed_TRN_264_LLaMA.tsv)
 
 ## Reconstructed Salmonella TRN with 2278 articles
 
-- [Ensemble model approach predictions]()
-- [Reconstructed Salmonella TRN]()
+- [Ensemble model approach predictions](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_2278_articles/Ensemble_predictions_TRN_2278.tsv)
+- [Reconstructed Salmonella TRN](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_2278_articles/Reconstructed_TRN_2278.csv)
 
 ## References
 
