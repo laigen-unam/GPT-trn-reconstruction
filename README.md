@@ -14,19 +14,22 @@
 
 ### Data set for fine-tuning
 
-For fine-tuning the GPT models and comparing our results with previous work, we leveraged the data set of sentences of *E. coli* literature presented in Varela-Vega et al. (2024). The data 115 set comprises 1562 sentences in the appropriate format for fine-tuning the GPT models.
+For fine-tuning the GPT models and comparing our results with previous work, we leveraged the data set of sentences of *E. coli* literature presented in Varela-Vega et al. (2024). The data set comprises 1562 sentences in the appropriate format for fine-tuning the GPT models.
 
 [https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/Fine_tuning](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/Fine_tuning)
 
 ### Data set to evaluate TRN reconstruction
 
-As our approach aims to eventually reconstruct TRNs from complete articles of several bacteria, we evaluated the best fine-tuned models of GPT-4o mini and LLaMA for the extraction of a TRN of the *Salmonella* enterica serovar Typhimurium bacterium (Salmonella) using the same 264 curated articles used in (Varela-Vega et al., 2024). We leveraged the set of 909 unique interactions (TF-regulated element-effect) manually extracted from those articles to evaluate the extraction of the best GPT-4o mini and LLaMA models. A total of 14349 tagged sentences were processed by the best GPT-4o mini and LLaMA models.
+As our approach aims to reconstruct TRNs from complete articles of several bacteria, we evaluated the best fine-tuned models of GPT-4o mini and LLaMA 3 for the extraction of a TRN of *Salmonella* using the same 264 curated articles used in prior work. We also used the set of 909 unique interactions (TF-regulated element-effect) manually extracted from those articles to evaluate the extraction of the best GPT-4o mini and LLaMA 3 models.
 
-[https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs)
+
+- [Curated TRN of 264 articles](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_reconstruction_evaluation/curated_data_set_264.tsv)
+- [⁠Data set of 264 articles for evaluation](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_reconstruction_evaluation/dataset_264_articles_for_evaluation.tsv)
+
 
 ## Reconstructed Salmonella TRN with 264 articles
 - [GPT-4o mini](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_264_articles/Reconstructed_TRN_264_GPT.tsv)
-- [LLaMA 8B](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_264_articles/Reconstructed_TRN_264_LLaMA.tsv)
+- [LLaMA 3 8B](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_264_articles/Reconstructed_TRN_264_LLaMA.tsv)
 
 ## Reconstructed Salmonella TRN with 2278 articles
 
@@ -35,5 +38,9 @@ As our approach aims to eventually reconstruct TRNs from complete articles of se
 
 ## References
 
-Varela-Vega, A., Posada-Reyes, A.-B., and Méndez-Cruz, C.-F. (2024).  *Automatic extraction of transcriptional regulatory interactions of bacteria from biomedical literature using a BERT-based approach*.  **Database**, 2024, baae094.  doi.org/10.1093/database/baae094
+Varela-Vega, A., Posada-Reyes, A.-B., and Méndez-Cruz, C.-F. (2024).  
+   *Automatic extraction of transcriptional regulatory interactions of bacteria from biomedical literature using a BERT-based approach*.  
+   **Database**, 2024, baae094.  
+   https://doi.org/10.1093/database/baae094
+
 
