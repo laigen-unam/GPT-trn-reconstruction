@@ -23,8 +23,8 @@ For fine-tuning the GPT models and comparing our results with previous work, we 
 As our approach aims to reconstruct TRNs from complete articles of several bacteria, we evaluated the best fine-tuned models of GPT-4o mini and LLaMA 3 for the extraction of a TRN of *Salmonella* using the same 264 curated articles used in prior work. We also used the set of 909 unique interactions (TF-regulated element-effect) manually extracted from those articles to evaluate the extraction of the best GPT-4o mini and LLaMA 3 models.
 
 
-- [Curated TRN of 264 articles](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_reconstruction_evaluation/curated_data_set_264.tsv)
-- [⁠Data set of 264 articles for evaluation](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Reconstructed_TRNs/TRN_reconstruction_evaluation/dataset_264_articles_for_evaluation.tsv)
+- [Curated TRN of 264 articles](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/TRN_reconstruction_evaluation/curated_data_set_264.tsv)
+- [⁠Data set of 264 articles for evaluation](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/TRN_reconstruction_evaluation/dataset_264_articles_for_evaluation.tsv)
 
 
 ## Reconstructed Salmonella TRN with 264 articles
