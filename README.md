@@ -14,13 +14,13 @@
 
 ### Data set for fine-tuning
 
-For fine-tuning the GPT-based models and comparing our results with previous work, we leveraged the data set of sentences from 119 journal articles of the *E. coli* literature presented in the work of Varela-Vega et al.(2024) The data set comprises 1562 sentences in the appropriate format for fine-tuning the GPT-based models.
+For fine-tuning the GPT-based models and comparing our results with previous work, we leveraged the data set of sentences from 119 journal articles of the *E. coli* literature presented in the work of Varela-Vega et al. (2024) The data set comprises 1562 sentences in the appropriate format for fine-tuning the GPT-based models.
 
 [https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/Fine_tuning](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/Fine_tuning)
 
 ### Data set to evaluate TRN reconstruction
 
-As our approach aims to reconstruct TRNs from complete articles of several bacteria, we evaluated the best fine-tuned models of GPT-4o mini and LLaMA 3 for the extraction of a TRN of *Salmonella* using the same 264 curated articles used in prior work (Varela-Vega et al.,2024). We also used the set of 909 unique interactions (TF-regulated element-effect) manually extracted from those articles to evaluate the extraction of the best GPT-4o mini and LLaMA 3 models.
+As our approach aims to reconstruct TRNs from complete articles of several bacteria, we evaluated the best fine-tuned models of GPT-4o mini and LLaMA 3 for the extraction of a TRN of *Salmonella* using the same 264 curated articles used in prior work (Varela-Vega et al., 2024). We also used the set of 909 unique interactions (TF-regulated element-effect) manually extracted from those articles to evaluate the extraction of the best GPT-4o mini and LLaMA 3 models.
 
 
 - [Curated TRN of 264 articles](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/TRN_reconstruction_evaluation/curated_data_set_264.tsv)
