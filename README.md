@@ -16,6 +16,7 @@
 
 For fine-tuning the GPT models and comparing our results with previous work, we leveraged the data set of sentences of *E. coli* literature presented in Varela-Vega et al. (2024). The data 115 set comprises 1562 sentences in the appropriate format for fine-tuning the GPT models.
 
+[https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/Fine_tuning](https://github.com/laigen-unam/GPT-trn-reconstruction/blob/main/Data_sets/Fine_tuning)
 
 ### Data set to evaluate TRN reconstruction
 
